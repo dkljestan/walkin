@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../images/bg.jpg);
+  height: 100vh;
+  font-family: Lato, sans-serif;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto; }
+
+header {
+  width: 100%;
+  height: auto;
+  padding: 20px; }
+  header h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white; }
+  @media only screen and (max-width: 768px) {
+    header .wrapper {
+      width: 90%; }
+    header header {
+      padding: 10px; } }
+  @media only screen and (max-width: 576px) {
+    header .wrapper {
+      width: 90%; }
+    header header {
+      padding: 5px; } }
+
+.one {
+  width: 100%;
+  height: auto; }
+  .one .image {
+    background-image: url(../images/pic02.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center; }
+  @media only screen and (max-width: 768px) {
+    .one .wrapper {
+      width: 90%; }
+    .one .image {
+      height: 40vh; } }
+  @media only screen and (max-width: 576px) {
+    .one .wrapper {
+      width: 90%; }
+    .one header {
+      padding: 5px; } }
+
+.two {
+  width: 100%;
+  height: auto; }
+  .two .text {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 60px; }
+    .two .text h1 {
+      text-align: center;
+      color: #444; }
+    .two .text .line {
+      border: 1px solid silver;
+      margin: 30px auto;
+      width: 100px; }
+    .two .text p {
+      text-align: center;
+      color: silver; }
+  @media only screen and (max-width: 768px) {
+    .two .wrapper {
+      width: 90%; } }
+  @media only screen and (max-width: 576px) {
+    .two .wrapper {
+      width: 90%; } }
+
+.three {
+  width: 100%;
+  height: auto; }
+  .three .text {
+    background-color: #eee;
+    color: #555;
+    padding: 50px; }
+  .three p {
+    margin: 20px;
+    line-height: 25px; }
+  @media only screen and (max-width: 768px) {
+    .three .wrapper {
+      width: 90%; } }
+  @media only screen and (max-width: 576px) {
+    .three .wrapper {
+      width: 90%; } }
+
+.four {
+  width: 100%;
+  height: auto; }
+  .four .background {
+    background-color: #1e1f23;
+    padding: 60px; }
+    .four .background .text {
+      width: 100%;
+      height: auto;
+      background-color: #121315;
+      padding: 20px; }
+      .four .background .text h1 {
+        text-align: center;
+        color: white; }
+      .four .background .text .line {
+        border: 1px solid #303132;
+        margin: 10px auto;
+        width: 100px; }
+      .four .background .text p {
+        text-align: center;
+        color: #303132; }
+  .four .images {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap; }
+    .four .images img {
+      width: 50%;
+      height: auto; }
+  @media only screen and (max-width: 768px) {
+    .four .wrapper {
+      width: 90%; }
+    .four .images img {
+      width: 100%; } }
+  @media only screen and (max-width: 576px) {
+    .four .wrapper {
+      width: 90%; }
+    .four .images img {
+      width: 100%; } }
+
+.five {
+  width: 100%;
+  height: auto; }
+  .five .flex {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    flex-wrap: wrap; }
+    .five .flex .box {
+      width: 50%; }
+      .five .flex .box img {
+        width: 100%;
+        height: 100%; }
+    .five .flex .box1 {
+      width: 50%;
+      background-color: white;
+      padding: 90px; }
+      .five .flex .box1 h1 {
+        margin-bottom: 30px;
+        color: black; }
+      .five .flex .box1 p {
+        line-height: 1.5em;
+        color: silver; }
+    .five .flex .box2 {
+      width: 50%;
+      background-color: #121315;
+      padding: 90px; }
+      .five .flex .box2 h1 {
+        margin-bottom: 30px;
+        color: white;
+        text-align: right; }
+      .five .flex .box2 p {
+        line-height: 1.5em;
+        color: silver;
+        text-align: right; }
+    .five .flex .box3 {
+      width: 50%; }
+      .five .flex .box3 img {
+        width: 100%;
+        height: 100%; }
+    .five .flex .box4 {
+      width: 50%; }
+      .five .flex .box4 img {
+        width: 100%;
+        height: 100%; }
+    .five .flex .box5 {
+      width: 50%;
+      background-color: white;
+      padding: 90px; }
+      .five .flex .box5 h1 {
+        margin-bottom: 30px;
+        color: black; }
+      .five .flex .box5 p {
+        line-height: 1.5em;
+        color: silver; }
+  @media only screen and (max-width: 768px) {
+    .five .wrapper {
+      width: 90%; }
+    .five .flex {
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      flex-wrap: wrap; }
+      .five .flex .box {
+        width: 100%; }
+      .five .flex .box1 {
+        width: 100%; }
+      .five .flex .box2 {
+        width: 100%; }
+      .five .flex .box3 {
+        width: 100%; }
+      .five .flex .box4 {
+        width: 100%; }
+      .five .flex .box5 {
+        width: 100%; } }
+  @media only screen and (max-width: 576px) {
+    .five .wrapper {
+      width: 90%; }
+    .five .flex {
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      flex-wrap: wrap; }
+      .five .flex .box {
+        width: 100%; }
+      .five .flex .box1 {
+        width: 100%; }
+      .five .flex .box2 {
+        width: 100%; }
+      .five .flex .box3 {
+        width: 100%; }
+      .five .flex .box4 {
+        width: 100%; }
+      .five .flex .box5 {
+        width: 100%; } }
+
+header {
+  padding: 50px;
+  text-align: center; }
+  header p {
+    margin: 10px;
+    color: #eee;
+    text-align: center; }
+  header i {
+    margin: 5px;
+    color: silver; }
+    header i:hover {
+      color: white; }
+
+/*# sourceMappingURL=style.css.map */
